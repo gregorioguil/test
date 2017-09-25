@@ -1,0 +1,15 @@
+#!/bin/sh -xe
+
+# Let's us see app log and errors.
+exec 2>&1
+
+#mkdir /data/db
+cd {{pkg.svc_var_path}}
+
+source venv/bin/activate
+#mongod --config $pkg_svc_config_path/mongod.conf
+#pip install pyOpenSSL
+#gunicorn -c gunicorn.conf.py --bind 0.0.0.0:8080 begin
+#apt-get install python3-pip
+#python3 app/client/client.py
+python begin.py

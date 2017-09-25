@@ -1,0 +1,10 @@
+boto3
+Flask
+flask_pymongo
+wtforms
+gevent
+gunicorn
+iso8601
+json2html
+requests
+six
